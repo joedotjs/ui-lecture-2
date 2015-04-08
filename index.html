@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Puppy Store</title>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app="PuppyStore">
+    <ul style="background: green;">
+        <li ui-sref="home">Home</li>
+        <li ui-sref="list">Listing</li>
+    </ul>
+    <ui-view></ui-view>
+</body>
+</html>
